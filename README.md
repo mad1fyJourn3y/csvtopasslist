@@ -25,7 +25,7 @@ This Python script extracts unique passwords from a CSV file containing password
   ```bash
    pip install -r requirements.txt
    ```
-#Usage
+##Usage
 Place your CSV file (e.g., chrome_passwords.csv) in the project directory. The CSV file should have a column labeled password containing the passwords.
 
 Run the script:
@@ -35,7 +35,7 @@ python generate_unique_password_list.py
 ```
 The script will generate a file named unique_password_list.txt containing the unique passwords sorted alphabetically.
 
-#Example CSV Input
+##Example CSV Input
 Your CSV file should look like this (with a column password):
 ```csv
 username,password
@@ -44,18 +44,19 @@ user2	mysecretpassword
 user3	123456
 user4	qwerty
 ```
-#Example Output
+##Example Output
 After running the script, the generated unique_password_list.txt will contain:
 ```csv
 123456
 mysecretpassword
 qwerty
 ```
-#Error Handling
+##Error Handling
+
 FileNotFoundError: If the input file is not found, an error message will be displayed.
 General Exceptions: Other issues with the script (e.g., incorrect CSV format) will trigger an error with a relevant message.
 #License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-#Contact
+###Contact
 For questions or contributions, feel free to contact me via GitHub or email.
