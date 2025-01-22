@@ -18,8 +18,8 @@ This Python script extracts unique passwords from a CSV file containing password
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/unique-password-list-generator.git
-   cd unique-password-list-generator
+   git clone https://github.com/mad1fyJourn3y/csvtopasslist.git
+   cd csvtopasslist
    ```
 2. Install dependencies (if any):
   ```bash
@@ -31,7 +31,7 @@ Place your CSV file (e.g., chrome_passwords.csv) in the project directory. The C
 Run the script:
 
 ```bash
-python generate_unique_password_list.py
+python csvextracter.py -i
 ```
 The script will generate a file named unique_password_list.txt containing the unique passwords sorted alphabetically.
 
