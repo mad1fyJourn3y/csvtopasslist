@@ -47,8 +47,6 @@ user4	qwerty
 #Example Output
 After running the script, the generated unique_password_list.txt will contain:
 ```csv
-Copy
-Edit
 123456
 mysecretpassword
 qwerty
